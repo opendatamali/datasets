@@ -1,0 +1,71 @@
+{
+    "description": "Liste des villages du Mali.",
+    "licenses": [
+        {
+            "id": "odc-pddl",
+            "url": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "name": "villages-mali",
+    "readme": "",
+    "resources": [
+        {
+            "path": "villages_mali.csv",
+            "schema": {
+                "fields": [
+                    {
+                    	"description": "Code Unique"
+                        "id": "Code",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Cercle"
+                        "id": "Cercle",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Commune"
+                        "id": "Commune",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Chef Lieu"
+                        "id": "ChefLieu",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Nom"
+                        "id": "Nom",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Longitude"
+                        "id": "Longitude",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Latitude"
+                        "id": "Latitude",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "GPS Coordinates"
+                        "id": "GPS",
+                        "type": "geopoint"
+                    }
+                ]
+            },
+            "url": "https://raw.github.com/opendatamali/datasets/master/villages-mali-test/villages_mali.csv"
+        }
+    ],
+    "sources": [
+        {
+            "name": "ANTIM",
+            "web": "http://antim.sante.gov.ml"
+        }
+    ],
+    "title": "Villages du Mali",
+    "id": "test-villages",
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/villages-mali-test/villages_mali.csv",
+    "readme_html": "Test"
+}
