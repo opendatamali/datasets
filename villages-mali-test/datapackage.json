@@ -14,42 +14,42 @@
             "schema": {
                 "fields": [
                     {
-                    	"description": "Code Unique"
+                    	"description": "Code Unique",
                         "id": "Code",
                         "type": "number"
                     },
                     {
-                    	"description": "Cercle"
+                    	"description": "Cercle",
                         "id": "Cercle",
                         "type": "string"
                     },
                     {
-                    	"description": "Commune"
+                    	"description": "Commune",
                         "id": "Commune",
                         "type": "string"
                     },
                     {
-                    	"description": "Chef Lieu"
+                    	"description": "Chef Lieu",
                         "id": "ChefLieu",
                         "type": "string"
                     },
                     {
-                    	"description": "Nom"
+                    	"description": "Nom",
                         "id": "Nom",
                         "type": "string"
                     },
                     {
-                    	"description": "Longitude"
+                    	"description": "Longitude",
                         "id": "Longitude",
                         "type": "number"
                     },
                     {
-                    	"description": "Latitude"
+                    	"description": "Latitude",
                         "id": "Latitude",
                         "type": "number"
                     },
                     {
-                    	"description": "GPS Coordinates"
+                    	"description": "GPS Coordinates",
                         "id": "GPS",
                         "type": "geopoint"
                     }
