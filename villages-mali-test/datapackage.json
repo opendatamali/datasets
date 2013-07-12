@@ -65,7 +65,7 @@
         }
     ],
     "title": "Villages du Mali",
-    "id": "test-villages",
+    "id": "villages-mali",
     "download_url": "https://raw.github.com/opendatamali/datasets/master/villages-mali-test/villages_mali.csv",
     "readme_html": "Test"
 }
