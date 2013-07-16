@@ -1,0 +1,76 @@
+{
+    "description": "Liste exhaustives des bureaux de votes pour l'élection présidentielle de 2013.",
+    "name": "bureaux-vote-PRM2013",
+    "resources": [
+        {
+            "path": "Liste-des-bureaux-vote-PRM2013.csv",
+            "schema": {
+                "fields": [
+                    {
+                    	"description": "Région",
+                        "id": "REGION",
+                        "label": "Région",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Cercle",
+                        "id": "CERCLE",
+                        "label": "Cercle",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Commune",
+                        "id": "COMMUNE",
+                        "label": "Commune",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Village/Fraction/Quartier",
+                        "id": "VFQ",
+                        "label": "Village",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Centre de Vote",
+                        "id": "CV",
+                        "label": "Centre de vote",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "nº bureau de vote dans le centre",
+                        "id": "BV",
+                        "label": "Bureau de vote",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Nb électeurs Homme",
+                        "id": "ELECTEURS_M",
+                        "label": "Électeurs Homme",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Nb électeurs Femme",
+                        "id": "ELECTEURS_F",
+                        "label": "Électeurs Femme",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Nb électeurs total",
+                        "id": "ELECTEURS",
+                        "label": "Électeurs",
+                        "type": "number"
+                    }
+                ]
+            },
+            "url": "https://raw.github.com/opendatamali/datasets/master/bureaux-vote-PRM2013/liste-bureaux-vote.csv"
+        }
+    ],
+    "sources": [
+        {
+            "name": " Commission Électorale Nationale Indépendante (CENI)"
+        }
+    ],
+    "title": "candidats à l'élection présidentielle 2013",
+    "id": "bureaux-vote-PRM2013",
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/bureaux-vote-PRM2013/liste-bureaux-vote.csv"
+}

@@ -1,0 +1,52 @@
+{
+    "description": "Liste exhaustives des candidats à l'élection présidentielle de 2013.",
+    "licenses": [
+        {
+            "id": "odc-pddl",
+            "url": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "name": "candidats-PRM2013",
+    "resources": [
+        {
+            "path": "Liste-des-candidats-PRM2013.csv",
+            "schema": {
+                "fields": [
+                    {
+                    	"description": "Code Unique",
+                        "id": "Rang",
+                        "label": "Rang",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Civilité",
+                        "id": "Civilité",
+                        "label": "Civilité",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Nom",
+                        "id": "Nom",
+                        "label": "Nom",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Prénom",
+                        "id": "Prénom",
+                        "label": "Prénom",
+                        "type": "string"
+                    }
+                ]
+            },
+            "url": "https://raw.github.com/opendatamali/datasets/master/candidats-PRM2013/Liste-des-candidats-PRM2013.csv"
+        }
+    ],
+    "sources": [
+        {
+            "name": " Commission Électorale Nationale Indépendante (CENI)"
+        }
+    ],
+    "title": "candidats à l'élection présidentielle 2013",
+    "id": "candidats-PRM2013",
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/candidats-PRM2013/Liste-des-candidats-PRM2013.csv"
+}
