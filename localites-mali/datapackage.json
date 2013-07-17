@@ -7,6 +7,7 @@
         }
     ],
     "name": "localites-mali",
+    "homepage": "http://datahub.io/dataset/localites-du-mali",
     "resources": [
         {
             "path": "mali-entities.csv",
