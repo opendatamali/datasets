@@ -1,6 +1,7 @@
 {
     "description": "Liste exhaustives des bureaux de votes pour l'élection présidentielle de 2013.",
     "name": "bureaux-vote-PRM2013",
+    "homepage": "http://datahub.io/dataset/bureaux-de-vote-election-presidentielle-2013",
     "resources": [
         {
             "path": "Liste-des-bureaux-vote-PRM2013.csv",

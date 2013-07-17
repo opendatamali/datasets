@@ -1,0 +1,78 @@
+{
+    "description": "Liste codifiée de toutes les localités du Mali.",
+    "licenses": [
+        {
+            "id": "odc-pddl",
+            "url": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "name": "localites-mali",
+    "resources": [
+        {
+            "path": "mali-entities.csv",
+            "schema": {
+                "fields": [
+                    {
+                    	"description": "Code Unique",
+                        "id": "code",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Région",
+                        "id": "region",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Cercle",
+                        "id": "cercle",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Commune",
+                        "id": "commune",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "Village / Fraction / Quartier",
+                        "id": "vfq",
+                        "type": "string"
+                    },
+                    {
+                    	"description": "GPS Coordinates",
+                        "id": "gps",
+                        "type": "geopoint"
+                    },
+                    {
+                    	"description": "Longitude",
+                        "id": "longitude",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Latitude",
+                        "id": "latitude",
+                        "type": "number"
+                    },
+                    {
+                    	"description": "Code du parent",
+                        "id": "parent_code",
+                        "type": "string"
+                    }
+                ]
+            },
+            "url": "https://raw.github.com/opendatamali/datasets/master/localites-mali/mali-entities.csv"
+        }
+    ],
+    "sources": [
+        {
+            "name": "ANTIM",
+            "web": "http://antim.sante.gov.ml"
+        },
+        {
+            "name": "YELEMAN",
+            "web": "http://yeleman.com"
+        }
+    ],
+    "title": "Localités du Mali",
+    "id": "localites-mali",
+    "download_url": "https://raw.github.com/opendatamali/datasets/master/localites-mali/mali-entities.csv",
+}
