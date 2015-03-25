@@ -127,7 +127,7 @@
 
                 ]
             },
-            "url": "https://github.com/jokkolabs/mali_schools/raw/master/MLI_schools.csv"
+            "url": "https://github.com/opendatamali/datasets/blob/master/ecole-mali/MLI_schools.csv"
         }
     ],
     "sources": [
@@ -142,5 +142,5 @@
     ],
     "title": "Ecoles du Mali",
     "id": "MLI_schools",
-    "download_url": "https://github.com/jokkolabs/mali_schools/raw/master/MLI_schools.csv"
+    "download_url": "https://github.com/opendatamali/datasets/blob/master/ecole-mali/MLI_schools.csv"
 }
