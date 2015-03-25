@@ -10,7 +10,7 @@
     "homepage": "http://datahub.io/dataset/ecole-mali",
     "resources": [
         {
-            "path": "ecole-mali.csv",
+            "path": "MLI_schools.csv",
             "schema": {
                 "fields": [
                     {
@@ -140,7 +140,7 @@
             "web": "http://jokkolabs.ml"
         }
     ],
-    "title": "Localités du Mali",
-    "id": "localites-mali",
+    "title": "Ecoles du Mali",
+    "id": "MLI_schools",
     "download_url": "https://github.com/jokkolabs/mali_schools/raw/master/MLI_schools.csv"
 }
